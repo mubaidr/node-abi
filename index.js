@@ -93,7 +93,12 @@ var deprecatedTargets = [
 ]
 
 var futureTargets = [
-  {runtime: 'electron', target: '3.0.0-beta.1', abi: '64', lts: false}
+  {runtime: 'electron', target: '3.0.0-beta.1', abi: '64', lts: false},
+  {runtime: 'electron', target: '3.0.0-beta.2', abi: '64', lts: false},
+  {runtime: 'electron', target: '3.0.0-beta.3', abi: '64', lts: false},
+  {runtime: 'electron', target: '3.0.0-beta.4', abi: '64', lts: false},
+  {runtime: 'electron', target: '3.0.0-beta.5', abi: '64', lts: false},
+  {runtime: 'electron', target: '3.0.0', abi: '64', lts: false}
 ]
 
 var allTargets = deprecatedTargets
